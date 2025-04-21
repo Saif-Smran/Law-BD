@@ -5,10 +5,10 @@ import logo from '../../assets/logo.png'
 const Navbar = () => {
 
     const link = <>
-        <NavLink to='/' className='btn btn-ghost p-2'>Home</NavLink>
-        <NavLink to='/bookings' className='btn btn-ghost p-2'>My-Bookings</NavLink>
-        <NavLink to='/blogs'  className='btn btn-ghost p-2'>Blogs</NavLink>
-        <NavLink to='/contact'  className='btn btn-ghost p-2'>Contact Us</NavLink>
+        <NavLink to='/' className='btn btn-ghost p-2 font-medium'>Home</NavLink>
+        <NavLink to='/bookings' className='btn btn-ghost p-2 font-medium'>My-Bookings</NavLink>
+        <NavLink to='/blogs'  className='btn btn-ghost p-2 font-medium'>Blogs</NavLink>
+        <NavLink to='/contact'  className='btn btn-ghost p-2 font-medium'>Contact Us</NavLink>
     </>
 
     return (
@@ -26,7 +26,7 @@ const Navbar = () => {
 
                         </ul>
                     </div>
-                    <a class="btn btn-ghost text-2xl space-x-2"><img src={logo} alt="logo" /> Law.BD</a>
+                    <a class="btn btn-ghost text-2xl font-extrabold space-x-2"><img src={logo} alt="logo" /> Law.BD</a>
                 </div>
                 <div class="navbar-center hidden lg:flex">
                     <ul class="menu menu-horizontal px-1 space-x-3">
@@ -34,7 +34,7 @@ const Navbar = () => {
                     </ul>
                 </div>
                 <div class="navbar-end">
-                    <a class="btn btn-success text-white rounded-2xl p-4 bg-[#0EA106]">Contact Now</a>
+                    <a class="btn btn-success text-white rounded-2xl p-4 bg-[#0EA106] font-bold">Contact Now</a>
                 </div>
             </div>
         </div>
