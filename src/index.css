@@ -6,3 +6,7 @@
 .mulish{
   font-family: 'Mulish', sans-serif;
 }
+
+.active{
+    @apply border-b-2 border-b-black
+}
