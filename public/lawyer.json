@@ -1,0 +1,166 @@
+[
+    {
+        "id": 1,
+        "Image": "https://i.ibb.co.com/mCYcPbdX/Leonardo-Phoenix-10-A-sophisticated-criminal-expert-lawyer-a-m-3.jpg",
+        "Name": "Awlad Hossain",
+        "Speciality": "Criminal Expert",
+        "Experience": "5+ Years",
+        "LicenseNumber": "BD 12451254",
+        "Fee": 2500,
+        "Availability": [
+            "Sunday",
+            "Monday",
+            "Thursday"
+        ]
+    },
+    {
+        "id": 2,
+        "Image": "https://i.ibb.co.com/mCYcPbdX/Leonardo-Phoenix-10-A-sophisticated-criminal-expert-lawyer-a-m-3.jpghttps://i.ibb.co.com/MDfHVdVt/Leonardo-Phoenix-10-In-a-strikingly-elegant-portrait-a-renowne-0.jpg",
+        "Name": "Farzana Karim",
+        "Speciality": "Family Law Specialist",
+        "Experience": "7+ Years",
+        "LicenseNumber": "BD 23458965",
+        "Fee": 3500,
+        "Availability": [
+            "Monday",
+            "Wednesday",
+            "Saturday"
+        ]
+    },
+    {
+        "id": 3,
+        "Image": "https://i.ibb.co.com/j9pRzPQR/Leonardo-Phoenix-10-A-boldly-passionate-Civil-Rights-Attorney-0.jpg",
+        "Name": "Tanvir Rahman",
+        "Speciality": "Civil Rights Attorney",
+        "Experience": "10+ Years",
+        "LicenseNumber": "BD 87451236",
+        "Fee": 5000,
+        "Availability": [
+            "Tuesday",
+            "Thursday"
+        ]
+    },
+    {
+        "id": 4,
+        "Image": "https://i.ibb.co.com/LzC0s3Rk/Leonardo-Phoenix-10-A-fiercely-determined-Immigration-Lawyer-w-1.jpg",
+        "Name": "Sharmin Akter",
+        "Speciality": "Immigration Lawyer",
+        "Experience": "4+ Years",
+        "LicenseNumber": "BD 45896123",
+        "Fee": 2000,
+        "Availability": [
+            "Sunday",
+            "Tuesday",
+            "Friday"
+        ]
+    },
+    {
+        "id": 5,
+        "Image": "https://i.ibb.co.com/8T4KXzG/Leonardo-Phoenix-10-An-esteemed-Corporate-Law-Expert-this-male-0.jpg",
+        "Name": "Kazi Arif",
+        "Speciality": "Corporate Law Expert",
+        "Experience": "8+ Years",
+        "LicenseNumber": "BD 98765432",
+        "Fee": 4000,
+        "Availability": [
+            "Monday",
+            "Wednesday",
+            "Friday"
+        ]
+    },
+    {
+        "id": 6,
+        "Image": "https://i.ibb.co.com/xtyGq7QD/Leonardo-Phoenix-10-A-strikingly-confident-Tax-Consultant-fema-3.jpg",
+        "Name": "Nasima Sultana",
+        "Speciality": "Tax Consultant",
+        "Experience": "6+ Years",
+        "LicenseNumber": "BD 12348765",
+        "Fee": 3000,
+        "Availability": [
+            "Sunday",
+            "Thursday"
+        ]
+    },
+    {
+        "id": 7,
+        "Image": "https://i.ibb.co.com/4gTR0J6r/Leonardo-Phoenix-10-A-distinguished-sharply-dressed-Property-L-1.jpg",
+        "Name": "Rafiq Hasan",
+        "Speciality": "Property Law Advisor",
+        "Experience": "9+ Years",
+        "LicenseNumber": "BD 34567890",
+        "Fee": 4500,
+        "Availability": [
+            "Tuesday",
+            "Wednesday",
+            "Friday"
+        ]
+    },
+    {
+        "id": 8,
+        "Image": "https://i.ibb.co.com/nM3Gvddk/Leonardo-Phoenix-10-A-professional-confident-and-smiling-femal-2.jpg",
+        "Name": "Mou Rahman",
+        "Speciality": "Environmental Law Expert",
+        "Experience": "5+ Years",
+        "LicenseNumber": "BD 56473829",
+        "Fee": 2500,
+        "Availability": [
+            "Monday",
+            "Thursday"
+        ]
+    },
+    {
+        "id": 9,
+        "Image": "https://i.ibb.co.com/0jQb4NpQ/freepik-the-style-is-candid-image-photography-with-natural-22008.jpg",
+        "Name": "Shafayet Kabir",
+        "Speciality": "Labor Law Attorney",
+        "Experience": "3+ Years",
+        "LicenseNumber": "BD 67895431",
+        "Fee": 1500,
+        "Availability": [
+            "Sunday",
+            "Tuesday",
+            "Saturday"
+        ]
+    },
+    {
+        "id": 10,
+        "Image": "https://i.ibb.co.com/BHpwhwLY/freepik-the-style-is-candid-image-photography-with-natural-22010.jpg",
+        "Name": "Lubna Ahmed",
+        "Speciality": "Consumer Rights Advocate",
+        "Experience": "6+ Years",
+        "LicenseNumber": "BD 78945612",
+        "Fee": 3000,
+        "Availability": [
+            "Wednesday",
+            "Friday"
+        ]
+    },
+    {
+        "id": 11,
+        "Image": "https://i.ibb.co.com/21Z8SrN2/freepik-the-style-is-candid-image-photography-with-natural-22009.jpg",
+        "Name": "Jahidul Islam",
+        "Speciality": "Cyber Crime Specialist",
+        "Experience": "5+ Years",
+        "LicenseNumber": "BD 15935728",
+        "Fee": 2500,
+        "Availability": [
+            "Monday",
+            "Thursday",
+            "Saturday"
+        ]
+    },
+    {
+        "id": 12,
+        "Image": "https://i.ibb.co.com/Ps5p0S2t/freepik-the-style-is-candid-image-photography-with-natural-22011.jpg",
+        "Name": "Salma Jahan",
+        "Speciality": "Human Rights Lawyer",
+        "Experience": "11+ Years",
+        "LicenseNumber": "BD 96385274",
+        "Fee": 5500,
+        "Availability": [
+            "Sunday",
+            "Tuesday",
+            "Friday"
+        ]
+    }
+]

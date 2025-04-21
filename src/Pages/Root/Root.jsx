@@ -7,7 +7,7 @@ const Root = () => {
     return (
         <div className='mulish'> 
             <Navbar></Navbar>
-            <hr className='my-2 border-t-1 ' />
+            <hr className='mt-2 border-t-1 ' />
             <Outlet></Outlet>
             <Footer></Footer>
         </div>
