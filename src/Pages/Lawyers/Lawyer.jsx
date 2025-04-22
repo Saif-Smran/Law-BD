@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import LawyerCard from './LawyerCard';
+import { Link } from 'react-router';
 
 const Lawyer = ({data}) => {
 
@@ -26,6 +27,7 @@ const Lawyer = ({data}) => {
 
                 <button onClick={handleShowFull} className='btn btn-success bg-[#0EA106] text-white rounded-lg'>{showFull ? "See Less" : "Show All Lawyer"}</button>
             </div>
+            
 
         </div>
     );

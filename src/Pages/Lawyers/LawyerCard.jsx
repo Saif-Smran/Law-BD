@@ -1,5 +1,6 @@
 import React from 'react';
 import { FaRegRegistered } from "react-icons/fa";
+import { Link } from 'react-router';
 
 const LawyerCard = ({ lawyer }) => {
 
@@ -38,12 +39,12 @@ const LawyerCard = ({ lawyer }) => {
                         License No: {lawyer.LicenseNumber}
                     </p>
 
-                    <button
+                    <Link to={`/lawyerdetails/${lawyer.id}`}
                         type="button"
-                        className="w-full text-blue-600 font-semibold border border-blue-300 rounded-full py-2 px-4 hover:bg-blue-50 transition self-start"
+                        className="w-full text-center text-blue-600 font-semibold border border-blue-300 rounded-full py-2 px-4 hover:bg-blue-50 transition self-start"
                     >
                         View Details
-                    </button>
+                    </Link>
                 </div>
             </div>
         </div>
