@@ -38,7 +38,7 @@ const LawyerDetails = () => {
             <div className="space-y-6">
                 {/* Profile Card  */}
                 <div class="border border-gray-200 rounded-lg p-6 flex flex-col sm:flex-row sm:items-start sm:space-x-6">
-                    <img alt="Portrait of Awlad Hossain, a professional criminal expert" class="w-[308px] h-[308px] rounded-lg object-cover flex-shrink-0"
+                    <img alt="Portrait of Awlad Hossain, a professional criminal expert" class="w-[308px] h-[308px] rounded-lg object-cover object-top flex-shrink-0"
                         src={lawyer?.Image} />
                     <div class="mt-4 sm:mt-0 flex-1 py-12">
                         <div>
