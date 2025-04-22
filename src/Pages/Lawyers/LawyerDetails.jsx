@@ -2,6 +2,8 @@ import React from 'react';
 import { useLoaderData, useParams } from 'react-router';
 import { FaRegRegistered } from "react-icons/fa";
 import { CircleAlert } from 'lucide-react';
+import { getStoredData, storeDataToDB } from '../../Utility/Utility';
+import { toast, ToastContainer } from 'react-toastify';
 
 
 const LawyerDetails = () => {
@@ -10,7 +12,20 @@ const LawyerDetails = () => {
     const data = useLoaderData()
 
     const lawyer = data.find(lawyer => lawyer.id === parseInt(id))
-    console.log(lawyer)
+    // console.log(lawyer)
+
+    const notify2 = () => toast.success('Successfully Added to the list')
+    const notify1 = () => toast.error('Already Added to the list')
+
+    const handelAddToLawyerList = (id) =>{
+        const storedData = getStoredData('lawyerList')
+        if (storedData.includes(id)){
+            notify1()
+        }else{
+            storeDataToDB(id, 'lawyerList')
+            notify2()
+        }
+    }
 
     return (
         <div className='max-w-screen-xl mx-auto mb-30 mt-20'>
@@ -31,10 +46,10 @@ const LawyerDetails = () => {
                                 {lawyer.Experience} Experience
                             </span>
                         </div>
-                        <h2 class="mt-2 text-3xlxl font-extrabold text-gray-900">
+                        <h2 class="mt-2 text-3xl font-extrabold text-gray-900">
                             {lawyer.Name}
                         </h2>
-                        <div class="flex flex-wrap items-center space-x-6 text-gray-500 text-sm mt-1">
+                        <div class="flex flex-wrap items-center space-x-6 text-gray-500 mt-1">
                             <span>
                                 {lawyer?.Speciality}
                             </span>
@@ -74,9 +89,10 @@ const LawyerDetails = () => {
                         <CircleAlert  size={25} />
                         <span>Due to high patient volume, we are currently accepting appointments for today only. We appreciate your understanding and cooperation.</span>
                     </div>
-                    <button class="w-full bg-green-700 hover:bg-green-800 text-white font-semibold py-3 rounded-full">
+                    <button onClick={()=>handelAddToLawyerList(lawyer.id)} class="cursor-pointer w-full bg-green-700 hover:bg-green-800 text-white font-semibold py-3 rounded-full">
                         Book Appointment Now
                     </button>
+                    <ToastContainer></ToastContainer>
                 </div>
             </div>
         </div>

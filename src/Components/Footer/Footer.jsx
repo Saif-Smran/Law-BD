@@ -11,7 +11,7 @@ const Footer = () => {
         <NavLink to='/' className='btn btn-ghost p-2 font-medium'>Home</NavLink>
         <NavLink to='/bookings' className='btn btn-ghost p-2 font-medium'>My-Bookings</NavLink>
         <NavLink to='/blogs' className='btn btn-ghost p-2 font-medium'>Blogs</NavLink>
-        <NavLink to='/contact' className='btn btn-ghost p-2 font-medium'>Contact Us</NavLink>
+        {/* <NavLink to='/contact' className='btn btn-ghost p-2 font-medium'>Contact Us</NavLink> */}
     </>
 
     return (
